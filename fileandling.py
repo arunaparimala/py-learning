@@ -1,3 +1,2 @@
-f=open("fib.py")
-content=f.read()
-print(content)
+f=open("veg.\text","r")
+print(f)
