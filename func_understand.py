@@ -1,0 +1,3 @@
+import ello
+
+ello.aruna()

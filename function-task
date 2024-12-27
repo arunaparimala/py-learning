@@ -1,0 +1,51 @@
+# write afunction sum_to tat takes two arguments and return teir sum
+def sum_two(a,b):
+    return a+b
+a=int(input("valu of a"))
+b=int(input("value of b"))
+print(sum_two(a,b))
+
+
+#write a function to is_even number is even print true else print true
+def is_even(num):
+    if num%2==0:
+        print("true")
+    else:
+        print("False")
+num=int(input("value of num"))
+is_even(num)
+
+#write a funcion find_max tat takes two number is arguments and return largest one
+def find_max(a,b):
+    if(a>b):
+      return a
+    else:
+      return b
+a=int(input("enter a"))
+b=int(input("enter b"))
+print(find_max(a,b))
+
+#write a function to multiplication table n from 1 to 10
+def multiplication_table(n):
+   for i in range(1,11):
+      print (i*n)
+n=int(input("value of n")) 
+multiplication_table(n)
+
+#write afunction celcious to farenit
+def celcious_to_farenit(celcious):
+   return (celcious*9/5)+32
+celcious=int(input("value of celcious"))
+farenit1=celcious_to_farenit(celcious)
+print(f"{farenit1}")
+ 
+#write a function to number and exponent and exponent sould be 2
+def power(num,exponent=2):
+   return num**exponent
+num=3
+print(power(num,3))
+
+#write afuncion greet tat takes a name as an arguement and prints a greeting message
+def greet(name):
+   print("good morning")
+greet("perinba")

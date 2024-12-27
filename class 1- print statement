@@ -1,0 +1,25 @@
+#print statement
+print("perinba","raji","aruna")
+
+#print using seperator
+print("perinba",sep="")
+
+print("perinba","raji","aruna",sep="-")
+
+#concordinate strings
+print("aruna"+"maa"+"raji"+"perinba")
+
+#using end 
+print("welcome","to","subanraopet",end="!")
+print("welcome"+"back"+"to"+"subanraopet",end="^")
+
+#escape sequence
+print("ello\nworld")
+print("#\n##\n###\n####")
+print("aruna\tperinba")
+
+
+#\b backspace
+print("good\bmorning")
+
+

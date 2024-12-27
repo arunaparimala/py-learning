@@ -1,0 +1,1 @@
+is_rice_in_grocerryinventry =rice in grocerry inventryis_rice_in_grocerry_inventry
